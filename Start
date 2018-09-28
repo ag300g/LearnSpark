@@ -1,0 +1,5 @@
+pyspark --master yarn \
+        --executor-cores 4 \
+        --num-executors  24 \
+        --executor-memory 30g \
+        --queue bdp_jmart_cmo_ipc_union.bdp_jmart_ipc_spark
